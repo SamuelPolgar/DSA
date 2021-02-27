@@ -25,6 +25,7 @@ git close                   (Clone repo to new dir)
 > #include <iostream> == include the iostream file (which has the cout command)
 > int main() {..} == C++ main method, running automatically
 > std::cout <<""; prints contents within the quotation marks ""
+> std is the namespace. :: is the scope operator. std::cout tells the compiler to cout the identifier in the std namespace
 > return 0 ends the program
 
 ```
@@ -39,10 +40,12 @@ Hello
 #### [Git overview](https://www.earthdatascience.org/workshops/intro-version-control-git/basic-git-commands/d)
 #### [Git crash course](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 #### [C++ Hello World](https://www.programiz.com/cpp-programming/examples/print-sentence)
+#### [C++ Beginners](https://beginnersbook.com/2017/08/cpp-functions/)
 #### [Coding in C++ vsCode](https://code.visualstudio.com/docs/languages/cpp)
 #### [Unable to find g++ --version](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a)
 #### [G++ commands](https://www.geeksforgeeks.org/compiling-with-g-plus-plus/)
 #### [zsh: permission denied: error]()
+#### [invalid active developer path](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a)
 
 
 
@@ -53,7 +56,7 @@ Hello
 ## Pointer
 A pointer is a varaible that stores memory address as it's value
 It's created with the * operator
-Declare with string* mystring || int* pointVar
+Declare with string *mystring || int* pointVar
 Reference operator vs dereference operator
     Reference:      Gets the reference of a string/int. string food = "Pizza"; string foodPtr = &food;
     Dereference:    Gets the string from a reference. *ptr = food 
@@ -84,6 +87,27 @@ int main() {
 
   return 0;
 }
+
+## Pointer length
+Example
+
+class Box {
+  public: 
+    int width = 10;
+    int length = 15;
+    int getArea()}
+      return width*length;
+    }
+};
+
+int main(){
+  Box b;
+  Boz *ptr = &b;
+}
+
+How to get the length of b?
+b.length (class_instance_name.attribute_name)
+ptr->length (pointer_to_class_instance->attribute_name)
 
 
 ## String
