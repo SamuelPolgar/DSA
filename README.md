@@ -51,7 +51,7 @@ Hello
 
 # 22/2 
 ## Links
-[Pogramiz](https://www.programiz.com/cpp-programming/pointers)
+[Pogramiz pointer example](https://www.programiz.com/cpp-programming/pointers)
 
 ## Pointer
 A pointer is a varaible that stores memory address as it's value
@@ -65,8 +65,8 @@ Why use pointers?
 * A variable or object can be modified in a function
 * directly manipulate the content of the pointer address
 
-### Example
-##Pointer
+```
+### Example Pointer
 
 #include <iostream>
 using namespace std;
@@ -87,10 +87,10 @@ int main() {
 
   return 0;
 }
+```
 
-## Pointer length
-Example
-
+## Pointer length Example
+```
 class Box {
   public: 
     int width = 10;
@@ -108,7 +108,7 @@ int main(){
 How to get the length of b?
 b.length (class_instance_name.attribute_name)
 ptr->length (pointer_to_class_instance->attribute_name)
-
+```
 
 ## String
 ### Links
